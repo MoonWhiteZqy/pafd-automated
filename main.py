@@ -51,6 +51,7 @@ class Fudan:
     def login(self):
         """
         执行登录
+        保持活跃
         """
         page_login = self._page_init()
 
